@@ -1,0 +1,18 @@
+[package]
+authors = ["Robert Bamler <robert.bamler@uni-tuebingen.de"]
+edition = "2021"
+name = "evalcompress"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arcode = "0.2.3"
+chrono = "0.4.19"
+compressed_dynamic_word_embeddings = {git = "https://github.com/robamler/linguistic-flux-capacitor.git", rev = "89f778ea6c2b889a0f85a0172a8aa6282f3aefb3"}
+constriction = "0.1.4"
+git-version = "0.3.5"
+num-traits = "0.2.14"
+rand = "0.8.4"
+rayon = "1.5.1"
+structopt = "0.3.25"
